@@ -1,0 +1,183 @@
+body {
+  background-color: hsl(218, 22%, 67%);
+  font-size: 10px;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.community {
+  padding: 3vh 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 40vw;
+  height: 30vh;
+}
+
+.bottom-container {
+  display: grid;
+  width: 40vw;
+  grid-template-columns: auto auto;
+  align-content: center;
+}
+
+.fee {
+  display: flex;
+}
+
+.fee-text {
+  padding-left: 1vw;
+  padding-top: 1.5vh;
+  text-align: center;
+}
+
+.Subscription {
+  color: white;
+  padding: 3vh 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: hsl(179, 62%, 43%);
+  width: 17vw;
+  height: 30vh;
+  align-content: center;
+  border-bottom-left-radius: 5px;
+}
+
+.why-us {
+  color: white;
+  padding: 3vh 3vw;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 63%, 52%);
+  height: 30vh;
+  width: 17vw;
+  border-bottom-right-radius: 5px;
+}
+
+button {
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  height: 5vh;
+  margin: auto;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  border: 0px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: hsl(95, 73%, 54%);
+  cursor: pointer;
+}
+
+.header {
+  color: hsl(179, 63%, 52%);
+}
+
+.guarantee {
+  color: hsl(71, 73%, 54%);
+}
+
+p {
+  color: hsl(218, 22%, 67%);
+}
+
+.why,
+.access {
+  color: hsl(204, 43%, 93%);
+}
+
+footer {
+  margin-top: -10vh;
+}
+
+.attribution {
+  color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 10vh;
+  }
+
+  .community {
+    margin-top: 15vh;
+    width: 80vw;
+  }
+
+  .bottom-container {
+    width: 80vw;
+    grid-template-columns: auto;
+  }
+
+  .Subscription {
+    width: 80vw;
+    border-bottom-left-radius: 0px;
+  }
+
+  .why-us {
+    width: 80vw;
+    margin-bottom: 10vh;
+    border-bottom-left-radius: 5px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    min-width: 300px;
+    margin-top: 10vh;
+    margin-right: 10vw;
+  }
+
+  .community {
+    margin-top: 15vh;
+    width: 300px;
+  }
+
+  .bottom-container {
+    width: 300px;
+    grid-template-columns: auto;
+  }
+
+  .Subscription {
+    width: 300px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .why-us {
+    width: 300px;
+    margin-bottom: 10vh;
+    border-bottom-left-radius: 5px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100vw;
+  }
+}
